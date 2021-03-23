@@ -5,8 +5,8 @@
 		"../../scss/product-grid.scss"
 	],
 	"sourcesContent": [
-		""
+		".product-grid{\n    display:grid;\n    grid-template-columns: 3;\n    gap:2.5rem;\n}"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": "AAAA,AAAA,aAAa,AAAA,CACT,OAAO,CAAC,IAAI,CACZ,qBAAqB,CAAE,CAAC,CACxB,GAAG,CAAC,MAAM,CACb"
 }
