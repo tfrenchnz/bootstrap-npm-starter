@@ -5,8 +5,8 @@
 		"../../scss/navbar.scss"
 	],
 	"sourcesContent": [
-		"body {\n    padding-bottom: 20px;\n  }\n  \n  .navbar {\n    margin-bottom: 20px;\n  }\n  "
+		"@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');\n\nbody {\n    padding-bottom: 20px;\n  }\n  \n  .navbar {\n    margin-bottom: 20px;\n    background-color: rgb(33,65,82);\n  }\n  \n.nav-item {\n  font-family: Montserrat;\n  color: rgb(244,240,207);\n}\n\n.logo-svg {\n  height: 1rem;\n}"
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,IAAI,AAAC,CACD,cAAc,CAAE,IAAI,CACrB,AAED,AAAA,OAAO,AAAC,CACN,aAAa,CAAE,IAAI,CACpB"
+	"mappings": "AAAA,OAAO,CAAC,6FAAI,CAEZ,AAAA,IAAI,AAAC,CACD,cAAc,CAAE,IAAI,CACrB,AAED,AAAA,OAAO,AAAC,CACN,aAAa,CAAE,IAAI,CACnB,gBAAgB,CAAE,OAAa,CAChC,AAEH,AAAA,SAAS,AAAC,CACR,WAAW,CAAE,UAAU,CACvB,KAAK,CAAE,OAAgB,CACxB,AAED,AAAA,SAAS,AAAC,CACR,MAAM,CAAE,IAAI,CACb"
 }

@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');
+
 body {
     padding-bottom: 20px;
   }
   
   .navbar {
     margin-bottom: 20px;
+    background-color: rgb(33,65,82);
   }
   
+.nav-item {
+  font-family: Montserrat;
+  color: rgb(244,240,207);
+}
+
+.logo-svg {
+  height: 1rem;
+}
