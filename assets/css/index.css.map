@@ -5,8 +5,8 @@
 		"../../scss/index.scss"
 	],
 	"sourcesContent": [
-		"\n"
+		"body {\n    background-color: rgb(244,240,207);\n}\n"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": "AAAA,AAAA,IAAI,AAAC,CACD,gBAAgB,CAAE,OAAgB,CACrC"
 }
