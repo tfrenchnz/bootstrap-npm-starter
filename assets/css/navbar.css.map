@@ -5,8 +5,8 @@
 		"../../scss/navbar.scss"
 	],
 	"sourcesContent": [
-		"body {\n    padding-bottom: 20px;\n  }\n  \n  .navbar {\n    margin-bottom: 20px;\n  }\n\n.navbar {\n  background-color: navy;\n}\n\n\n\n  "
+		"body {\n    padding-bottom: 20px;\n  }\n  \n  .navbar {\n    margin-bottom: 20px;\n    background-color: rgb(33,65,82);\n  }\n\n\n\n  "
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,IAAI,AAAC,CACD,cAAc,CAAE,IAAI,CACrB,AAED,AAAA,OAAO,AAAC,CACN,aAAa,CAAE,IAAI,CACpB,AAEH,AAAA,OAAO,AAAC,CACN,gBAAgB,CAAE,IAAI,CACvB"
+	"mappings": "AAAA,AAAA,IAAI,AAAC,CACD,cAAc,CAAE,IAAI,CACrB,AAED,AAAA,OAAO,AAAC,CACN,aAAa,CAAE,IAAI,CACnB,gBAAgB,CAAE,OAAa,CAChC"
 }
