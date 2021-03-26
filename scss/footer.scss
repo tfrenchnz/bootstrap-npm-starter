@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Roboto:ital@0;1&display=swap');
 
 .footer-link {
-    font-family: Roboto;
+    font-family: Montserrat;
     list-style: none;
 }
 
@@ -10,8 +10,5 @@
     grid-template-columns: repeat(2, 1fr);
     color: rgb(244,240,207);
     background-color: rgb(33,65,82);
-}
-
-.footer-background{
-    color: rgb(33,65,82);
+    padding: 2rem;
 }
