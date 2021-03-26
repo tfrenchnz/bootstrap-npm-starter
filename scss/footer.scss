@@ -4,3 +4,8 @@
     font-family: Roboto;
     list-style: none;
 }
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
