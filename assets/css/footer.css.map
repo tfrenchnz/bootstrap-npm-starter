@@ -5,8 +5,8 @@
 		"../../scss/footer.scss"
 	],
 	"sourcesContent": [
-		""
+		"@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Roboto:ital@0;1&display=swap');\n\n.footer-link {\n    font-family: Roboto;\n    list-style: none;\n}"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": "AAAA,OAAO,CAAC,oHAAI,CAEZ,AAAA,YAAY,AAAC,CACT,WAAW,CAAE,MAAM,CACnB,UAAU,CAAE,IAAI,CACnB"
 }
