@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "about.css",
+	"sources": [
+		"../../scss/about.scss"
+	],
+	"sourcesContent": [
+		".about-content {\n    padding: 20px;\n    display: grid;\n    grid-template-columns: repeat(2);\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,cAAc,AAAC,CACX,OAAO,CAAE,IAAI,CACb,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,SAAS,CACnC"
+}
