@@ -5,8 +5,8 @@
 		"../../scss/navbar.scss"
 	],
 	"sourcesContent": [
-		"@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');\n\nbody {\n    padding-bottom: 20px;\n  }\n  \n  .navbar {\n    margin-bottom: 20px;\n    background-color: rgb(33,65,82);\n  }\n  \n.nav-item {\n  font-family: Montserrat;\n}\n\n.nav-link {\n  color: rgb(244,240,207);\n}\n\n.navbar-toggler {\n  color: rgb(244,240,207);\n}\n\n.logo-svg {\n  width: 18rem;\n  padding: 20px;\n}\n\n.dropdown-menu{\n  color: rgb(244,240,207);\n}"
+		"@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');\n\nbody {\n    padding-bottom: 20px;\n  }\n  \n  .navbar {\n    margin-bottom: 20px;\n    background-color: rgb(33,65,82);\n  }\n  \n.nav-item {\n  font-family: Montserrat;\n}\n\n.nav-link {\n  color: rgb(244,240,207);\n}\n\n.navbar-toggler {\n  color: rgb(244,240,207);\n}\n\n.navbar-toggler-icon {\n  color: rgb(238, 147, 37)\n}\n\n.logo-svg {\n  width: 18rem;\n  padding: 20px;\n}\n\n.dropdown-menu{\n  color: rgb(244,240,207);\n}"
 	],
 	"names": [],
-	"mappings": "AAAA,OAAO,CAAC,6FAAI,CAEZ,AAAA,IAAI,AAAC,CACD,cAAc,CAAE,IAAI,CACrB,AAED,AAAA,OAAO,AAAC,CACN,aAAa,CAAE,IAAI,CACnB,gBAAgB,CAAE,OAAa,CAChC,AAEH,AAAA,SAAS,AAAC,CACR,WAAW,CAAE,UAAU,CACxB,AAED,AAAA,SAAS,AAAC,CACR,KAAK,CAAE,OAAgB,CACxB,AAED,AAAA,eAAe,AAAC,CACd,KAAK,CAAE,OAAgB,CACxB,AAED,AAAA,SAAS,AAAC,CACR,KAAK,CAAE,KAAK,CACZ,OAAO,CAAE,IAAI,CACd,AAED,AAAA,cAAc,AAAA,CACZ,KAAK,CAAE,OAAgB,CACxB"
+	"mappings": "AAAA,OAAO,CAAC,6FAAI,CAEZ,AAAA,IAAI,AAAC,CACD,cAAc,CAAE,IAAI,CACrB,AAED,AAAA,OAAO,AAAC,CACN,aAAa,CAAE,IAAI,CACnB,gBAAgB,CAAE,OAAa,CAChC,AAEH,AAAA,SAAS,AAAC,CACR,WAAW,CAAE,UAAU,CACxB,AAED,AAAA,SAAS,AAAC,CACR,KAAK,CAAE,OAAgB,CACxB,AAED,AAAA,eAAe,AAAC,CACd,KAAK,CAAE,OAAgB,CACxB,AAED,AAAA,oBAAoB,AAAC,CACnB,KAAK,CAAE,OAAiB,CACzB,AAED,AAAA,SAAS,AAAC,CACR,KAAK,CAAE,KAAK,CACZ,OAAO,CAAE,IAAI,CACd,AAED,AAAA,cAAc,AAAA,CACZ,KAAK,CAAE,OAAgB,CACxB"
 }
