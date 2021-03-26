@@ -8,4 +8,10 @@
 .footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    color: rgb(244,240,207);
+    background-color: rgb(33,65,82);
+}
+
+.footer-background{
+    color: rgb(33,65,82);
 }
