@@ -78,6 +78,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Roboto:ital@0;1&display=swap');
 
+h2 {
+    font-family: Montserrat;
+}
+
+a {
+    font font-family: Roboto;
+}
 
 body {
     background-color: rgb(244,240,207);
@@ -87,3 +94,4 @@ body {
 header {
     background-color: rgb(244,240,207);
 }
+
