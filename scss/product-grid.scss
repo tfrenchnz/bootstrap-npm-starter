@@ -1,6 +1,6 @@
 .product-grid{
     display:grid;
-    grid-template-columns:;
+    grid grid-template-columns: auto;
     gap:2.5rem;
     padding: 20px;
 }
