@@ -5,8 +5,8 @@
 		"../../scss/product-grid.scss"
 	],
 	"sourcesContent": [
-		".product-grid {\n    // display: grid;\n    // grid-template-columns: auto, 1fr;\n    // gap:2.5rem;\n    padding: 20px;\n}\n\n.container {\n    padding: 20px;\n}\n\n.col {\n    width: 300px;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: flex-end;\n}"
+		".product-grid {\n    display: grid;\n    grid-template-columns: auto, 1fr;\n    gap:2.5rem;\n    padding: 20px;\n}\n\n.container {\n    padding: 20px;\n}\n\n.col {\n    width: 300px;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: flex-end;\n}"
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,aAAa,AAAC,CAIV,OAAO,CAAE,IAAI,CAChB,AAED,AAAA,UAAU,AAAC,CACP,OAAO,CAAE,IAAI,CAChB,AAED,AAAA,IAAI,AAAC,CACD,KAAK,CAAE,KAAK,CACZ,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,IAAI,CACf,eAAe,CAAE,QAAQ,CAC5B"
+	"mappings": "AAAA,AAAA,aAAa,AAAC,CACV,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,SAAS,CAChC,GAAG,CAAC,MAAM,CACV,OAAO,CAAE,IAAI,CAChB,AAED,AAAA,UAAU,AAAC,CACP,OAAO,CAAE,IAAI,CAChB,AAED,AAAA,IAAI,AAAC,CACD,KAAK,CAAE,KAAK,CACZ,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,IAAI,CACf,eAAe,CAAE,QAAQ,CAC5B"
 }

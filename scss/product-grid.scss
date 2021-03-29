@@ -1,17 +1,10 @@
 .product-grid {
-    // display: grid;
-    // grid-template-columns: auto, 1fr;
-    // gap:2.5rem;
+    display: grid;
+    grid-template-columns:repeat(auto, 300px)
+    gap:2.5rem;
     padding: 20px;
 }
 
 .container {
     padding: 20px;
-}
-
-.col {
-    width: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
 }
