@@ -5,7 +5,7 @@
 		"../../scss/footer.scss"
 	],
 	"sourcesContent": [
-		"@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Roboto:ital@0;1&display=swap');\n\n.footer-link {\n    font-family: roboto;\n    list-style: none;\n    font-size: small;\n    letter-spacing: 0.05rem;\n    align-content: center;\n}\n\n.footer {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    color: rgb(244,240,207);\n    background-color: rgb(33,65,82);\n    padding: 1rem;\n}"
+		"@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Roboto:ital@0;1&display=swap');\n\n.footer-link {\n    font-family: Roboto;\n    list-style: none;\n    font-size: small;\n    letter-spacing: 0.05rem;\n    align-content: center;\n}\n\n.footer {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    color: rgb(244,240,207);\n    background-color: rgb(33,65,82);\n    padding: 1rem;\n}"
 	],
 	"names": [],
 	"mappings": "AAAA,OAAO,CAAC,oHAAI,CAEZ,AAAA,YAAY,AAAC,CACT,WAAW,CAAE,MAAM,CACnB,UAAU,CAAE,IAAI,CAChB,SAAS,CAAE,KAAK,CAChB,cAAc,CAAE,OAAO,CACvB,aAAa,CAAE,MAAM,CACxB,AAED,AAAA,OAAO,AAAC,CACJ,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,cAAc,CACrC,KAAK,CAAE,OAAgB,CACvB,gBAAgB,CAAE,OAAa,CAC/B,OAAO,CAAE,IAAI,CAChB"
