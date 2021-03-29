@@ -8,3 +8,9 @@
 .container {
     padding: 20px;
 }
+
+.col {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}

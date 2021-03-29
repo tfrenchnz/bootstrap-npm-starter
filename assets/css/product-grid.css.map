@@ -5,8 +5,8 @@
 		"../../scss/product-grid.scss"
 	],
 	"sourcesContent": [
-		".product-grid {\n    display: grid;\n    grid-template-columns: auto,;\n    gap:2.5rem;\n    padding: 20px;\n}\n\n.container {\n    padding: 20px;\n}"
+		".product-grid {\n    display: grid;\n    grid-template-columns: auto,;\n    gap:2.5rem;\n    padding: 20px;\n}\n\n.container {\n    padding: 20px;\n}\n\n.col {\n    width: 300px;\n    display: flex;\n    flex-wrap: wrap;\n}"
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,aAAa,AAAC,CACV,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,IAAI,CAC3B,GAAG,CAAC,MAAM,CACV,OAAO,CAAE,IAAI,CAChB,AAED,AAAA,UAAU,AAAC,CACP,OAAO,CAAE,IAAI,CAChB"
+	"mappings": "AAAA,AAAA,aAAa,AAAC,CACV,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,IAAI,CAC3B,GAAG,CAAC,MAAM,CACV,OAAO,CAAE,IAAI,CAChB,AAED,AAAA,UAAU,AAAC,CACP,OAAO,CAAE,IAAI,CAChB,AAED,AAAA,IAAI,AAAC,CACD,KAAK,CAAE,KAAK,CACZ,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,IAAI,CAClB"
 }
