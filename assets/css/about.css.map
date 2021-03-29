@@ -5,8 +5,8 @@
 		"../../scss/about.scss"
 	],
 	"sourcesContent": [
-		"@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Roboto:ital@0;1&display=swap');\n\n\n.about-content {\n    padding: 20px;\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n}\n\n.about-title {\n    font-family: Montserrat;\n}\n\n.about-text {\n    font-family: Roboto;\n}\n\n.about-img {\n    width: 50%;\n}"
+		"@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Roboto:ital@0;1&display=swap');\n\n\n.about-content {\n    padding: 20px;\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n}\n\n.about-title {\n    font-family: Montserrat;\n}\n\n.about-text {\n    font-family: Roboto;\n}\n\n.about-img {\n    width: 50vw;\n}"
 	],
 	"names": [],
-	"mappings": "AAAA,OAAO,CAAC,oHAAI,CAGZ,AAAA,cAAc,AAAC,CACX,OAAO,CAAE,IAAI,CACb,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,cAAc,CACxC,AAED,AAAA,YAAY,AAAC,CACT,WAAW,CAAE,UAAU,CAC1B,AAED,AAAA,WAAW,AAAC,CACR,WAAW,CAAE,MAAM,CACtB,AAED,AAAA,UAAU,AAAC,CACP,KAAK,CAAE,GAAG,CACb"
+	"mappings": "AAAA,OAAO,CAAC,oHAAI,CAGZ,AAAA,cAAc,AAAC,CACX,OAAO,CAAE,IAAI,CACb,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,cAAc,CACxC,AAED,AAAA,YAAY,AAAC,CACT,WAAW,CAAE,UAAU,CAC1B,AAED,AAAA,WAAW,AAAC,CACR,WAAW,CAAE,MAAM,CACtB,AAED,AAAA,UAAU,AAAC,CACP,KAAK,CAAE,IAAI,CACd"
 }
