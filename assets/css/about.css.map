@@ -5,8 +5,8 @@
 		"../../scss/about.scss"
 	],
 	"sourcesContent": [
-		"@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Roboto:ital@0;1&display=swap');\n\n\n.about-content {\n    padding: 0px;\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n}\n\n.about-title {\n    font-family: Montserrat;\n}\n\n.about-text {\n    font-family: Roboto;\n    color: rgb(33,65,82);\n    text-decoration: none;\n}\n\n.about-img {\n    width: 100%;\n}\n\n.about-grid {\n    padding: 20px;\n}"
+		"@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Roboto:ital@0;1&display=swap');\n\n\n.about-content {\n    padding: 0px;\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n}\n\n.about-title {\n    font-family: Montserrat;\n    color: rgb(33,65,82);\n}\n\n.about-text {\n    font-family: Roboto;\n    color: rgb(33,65,82);\n    text-decoration: none;\n}\n\n.about-text:hover {\n    color: rgb(33,65,82);\n}\n\n.about-img {\n    width: 100%;\n}\n\n.about-grid {\n    padding: 20px;\n}"
 	],
 	"names": [],
-	"mappings": "AAAA,OAAO,CAAC,oHAAI,CAGZ,AAAA,cAAc,AAAC,CACX,OAAO,CAAE,GAAG,CACZ,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,cAAc,CACxC,AAED,AAAA,YAAY,AAAC,CACT,WAAW,CAAE,UAAU,CAC1B,AAED,AAAA,WAAW,AAAC,CACR,WAAW,CAAE,MAAM,CACnB,KAAK,CAAE,OAAa,CACpB,eAAe,CAAE,IAAI,CACxB,AAED,AAAA,UAAU,AAAC,CACP,KAAK,CAAE,IAAI,CACd,AAED,AAAA,WAAW,AAAC,CACR,OAAO,CAAE,IAAI,CAChB"
+	"mappings": "AAAA,OAAO,CAAC,oHAAI,CAGZ,AAAA,cAAc,AAAC,CACX,OAAO,CAAE,GAAG,CACZ,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,cAAc,CACxC,AAED,AAAA,YAAY,AAAC,CACT,WAAW,CAAE,UAAU,CACvB,KAAK,CAAE,OAAa,CACvB,AAED,AAAA,WAAW,AAAC,CACR,WAAW,CAAE,MAAM,CACnB,KAAK,CAAE,OAAa,CACpB,eAAe,CAAE,IAAI,CACxB,AAED,AAAA,WAAW,AAAA,MAAM,AAAC,CACd,KAAK,CAAE,OAAa,CACvB,AAED,AAAA,UAAU,AAAC,CACP,KAAK,CAAE,IAAI,CACd,AAED,AAAA,WAAW,AAAC,CACR,OAAO,CAAE,IAAI,CAChB"
 }
