@@ -2,7 +2,7 @@
 
 
 .about-content {
-    padding: 20px;
+    padding: 0px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -17,4 +17,8 @@
 
 .about-img {
     width: 100%;
+}
+
+.about-grid {
+    padding: 20px;
 }
