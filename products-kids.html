@@ -27,6 +27,9 @@
 <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
 <meta name="theme-color" content="#7952b3">
 
+<!-- navbar -->
+<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
+<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
     <style>
       .bd-placeholder-img {
@@ -47,6 +50,39 @@
     
   </head>
   <body>
+
+    <header>
+      <div class=logo-svg>
+        <a href="index.html">
+        <img src="assets/img/renoo-logo.svg" alt="Renoo">
+        </a>
+      </div>
+    </header>
+
+    <nav class="navbar navbar-expand-md" aria-label="Fourth navbar example">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><img src="assets/img/renoo-logo.svg" alt=""></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="products.html" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Buy</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                <li><a class="dropdown-item" href="products-men.html">Men</a></li>
+                <li><a class="dropdown-item" href="products-women.html">Women</a></li>
+                <li><a class="dropdown-item" href="products-kids.html">Kids</a></li>
+              </ul>
+            </li>  
+            
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
 <main>
 
