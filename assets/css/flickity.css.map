@@ -5,8 +5,8 @@
 		"../../scss/flickity.scss"
 	],
 	"sourcesContent": [
-		"/* external css: flickity.css */\n\n* { box-sizing: border-box; }\n\nbody { font-family: sans-serif; }\n\n.carousel {\n  background: #EEE;\n}\n\n.carousel-cell {\n  width: 66%;\n  height: 200px;\n  margin-right: 10px;\n  background: #8C8;\n  border-radius: 5px;\n  counter-increment: carousel-cell;\n}\n\n/* cell number */\n.carousel-cell:before {\n  display: block;\n  text-align: center;\n  content: counter(carousel-cell);\n  line-height: 200px;\n  font-size: 80px;\n  color: white;\n}\n"
+		"/* external css: flickity.css */\n\n* { box-sizing: border-box; }\n\nbody { font-family: sans-serif; }\n\n.carousel {\n  background: #EEE;\n  \n}\n\n.carousel-cell {\n  width: 66%;\n  height: 200px;\n  margin-right: 10px;\n  background: #8C8;\n  border-radius: 5px;\n  counter-increment: carousel-cell;\n}\n\n/* cell number */\n.carousel-cell:before {\n  display: block;\n  text-align: center;\n  content: counter(carousel-cell);\n  line-height: 200px;\n  font-size: 80px;\n  color: white;\n}\n"
 	],
 	"names": [],
-	"mappings": "AAEA,AAAA,CAAC,AAAC,CAAE,UAAU,CAAE,UAAU,CAAI,AAE9B,AAAA,IAAI,AAAC,CAAE,WAAW,CAAE,UAAU,CAAI,AAElC,AAAA,SAAS,AAAC,CACR,UAAU,CAAE,IAAI,CACjB,AAED,AAAA,cAAc,AAAC,CACb,KAAK,CAAE,GAAG,CACV,MAAM,CAAE,KAAK,CACb,YAAY,CAAE,IAAI,CAClB,UAAU,CAAE,IAAI,CAChB,aAAa,CAAE,GAAG,CAClB,iBAAiB,CAAE,aAAa,CACjC,AAGD,AAAA,cAAc,AAAA,OAAO,AAAC,CACpB,OAAO,CAAE,KAAK,CACd,UAAU,CAAE,MAAM,CAClB,OAAO,CAAE,sBAAsB,CAC/B,WAAW,CAAE,KAAK,CAClB,SAAS,CAAE,IAAI,CACf,KAAK,CAAE,KAAK,CACb"
+	"mappings": "AAEA,AAAA,CAAC,AAAC,CAAE,UAAU,CAAE,UAAU,CAAI,AAE9B,AAAA,IAAI,AAAC,CAAE,WAAW,CAAE,UAAU,CAAI,AAElC,AAAA,SAAS,AAAC,CACR,UAAU,CAAE,IAAI,CAEjB,AAED,AAAA,cAAc,AAAC,CACb,KAAK,CAAE,GAAG,CACV,MAAM,CAAE,KAAK,CACb,YAAY,CAAE,IAAI,CAClB,UAAU,CAAE,IAAI,CAChB,aAAa,CAAE,GAAG,CAClB,iBAAiB,CAAE,aAAa,CACjC,AAGD,AAAA,cAAc,AAAA,OAAO,AAAC,CACpB,OAAO,CAAE,KAAK,CACd,UAAU,CAAE,MAAM,CAClB,OAAO,CAAE,sBAAsB,CAC/B,WAAW,CAAE,KAAK,CAClB,SAAS,CAAE,IAAI,CACf,KAAK,CAAE,KAAK,CACb"
 }
