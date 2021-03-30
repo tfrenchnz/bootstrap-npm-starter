@@ -1,3 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap");body{padding-bottom:20px}.navbar{margin-bottom:0px;background-color:#214152}.nav-item{font-family:Montserrat}.nav-link{color:#f4f0ed;display:inline-block}.navbar-toggler{color:#f4f0ed}.navbar-toggler-icon{color:#ee9325}.logo-svg{width:18rem;padding:20px}.dropdown-menu{color:#f4f0ed}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap");body{padding-bottom:20px}.navbar{margin-bottom:0px;background-color:#214152}.nav-item{font-family:Montserrat}.nav-link{color:#f4f0ed;display:inline-block}.nav-link:hover{color:#ee9325}.navbar-toggler{color:#f4f0ed}.navbar-toggler-icon{color:#ee9325}.logo-svg{width:18rem;padding:20px}.dropdown-menu{color:#f4f0ed}
 
 /*# sourceMappingURL=navbar.css.map */
