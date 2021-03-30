@@ -24,19 +24,14 @@ body {
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-     height: 800px;
+     height: 32rem;
     padding: 20px;
   }
   .carousel-item > img {
     position: absolute;
     top: 0;
     left: 0;
-    max-width: 600px;
-    height: auto;
-  }
-
-  .carousel-inner {
-    width: 600px;
+    max-width: 32rem;
   }
   
   
