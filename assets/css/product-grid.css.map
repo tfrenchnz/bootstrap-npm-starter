@@ -5,8 +5,8 @@
 		"../../scss/product-grid.scss"
 	],
 	"sourcesContent": [
-		".product-grid {\n    display: grid;\n    align-items: center;\n    grid-template-columns:repeat(auto-fit, 300px);\n    grid-template-columns:repeat(3, 1fr);\n    gap: 2.5rem;\n    padding: 20px;\n\n    // @media screen and (max-width: 992px) {\n    //     grid-template-columns:repeat(2, 1fr);\n    // }\n}\n\n.container {\n    padding: 20px;\n}"
+		".product-grid {\n    display: grid;\n    align-items: center;\n    grid-template-columns:repeat(auto-fit, 300px);\n    // grid-template-columns:repeat(3, 1fr);\n    gap: 2.5rem;\n    padding: 20px;\n\n    // @media screen and (max-width: 992px) {\n    //     grid-template-columns:repeat(2, 1fr);\n    // }\n}\n\n.container {\n    padding: 20px;\n}"
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,aAAa,AAAC,CACV,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,qBAAqB,CAAC,uBAAuB,CAC7C,qBAAqB,CAAC,cAAc,CACpC,GAAG,CAAE,MAAM,CACX,OAAO,CAAE,IAAI,CAKhB,AAED,AAAA,UAAU,AAAC,CACP,OAAO,CAAE,IAAI,CAChB"
+	"mappings": "AAAA,AAAA,aAAa,AAAC,CACV,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,qBAAqB,CAAC,uBAAuB,CAE7C,GAAG,CAAE,MAAM,CACX,OAAO,CAAE,IAAI,CAKhB,AAED,AAAA,UAAU,AAAC,CACP,OAAO,CAAE,IAAI,CAChB"
 }
