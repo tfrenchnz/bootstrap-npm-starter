@@ -7,6 +7,10 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
+@media only screen and (max-width: 600px) {
+    grid-template-columns: repeat (1fr);
+}
+
 .about-title {
     font-family: Montserrat;
     color: rgb(33,65,82);
