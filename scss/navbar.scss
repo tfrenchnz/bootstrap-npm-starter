@@ -18,6 +18,13 @@ body {
   display: inline-block;
 }
 
+@media (max-width: 730px){
+  .nav-link {
+    display: block;
+  }
+}
+
+
 .nav-link:hover {
   color: rgb(238, 147, 37);
 }
