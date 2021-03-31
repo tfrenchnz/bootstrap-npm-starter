@@ -7,7 +7,12 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-@media (max-width: 800px) {
+.about-grid-narrow {
+    padding: 20px;
+    display: none;
+}
+
+@media (max-width: 500px) {
     .about-content {
     grid-template-columns: repeat(1, 1fr);
     }
@@ -46,9 +51,4 @@
 
 .about-grid-wide {
     padding: 20px;
-}
-
-.about-grid-narrow {
-    padding: 20px;
-    display: none;
 }
