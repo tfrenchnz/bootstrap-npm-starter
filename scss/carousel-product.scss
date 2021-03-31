@@ -6,7 +6,7 @@ main {
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: #5a5a5a;
-    justify-items: center;
+    align-items: center;
   }
   
   
@@ -17,6 +17,7 @@ main {
   .carousel {
     margin-bottom: 4rem;
     max-width: 600px;
+    justify-content: center;
   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
