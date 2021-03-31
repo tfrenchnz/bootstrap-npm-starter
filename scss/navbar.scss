@@ -31,6 +31,10 @@ body {
   color: rgb(238, 147, 37)
 }
 
+.container-fluid {
+  align-items: center;
+}
+
 .logo-svg {
   width: 18rem;
   padding: 20px;
@@ -38,10 +42,4 @@ body {
 
 .dropdown-menu{
   color: rgb(244,240,237);
-}
-
-.navbar-toggler-icon {
-  // width:fit-content;
-  // height: fit-content;
-  align-items: center;
 }
