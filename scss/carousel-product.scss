@@ -2,10 +2,11 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
+main {
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: #5a5a5a;
+    justify-content: center;
   }
   
   
@@ -16,7 +17,6 @@ body {
   .carousel {
     margin-bottom: 4rem;
     max-width: 600px;
-    justify-content: center;
   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
