@@ -58,13 +58,16 @@
         <h3>Contact Form</h3>
             <div class="container-contact">
             <form action="/action_page.php">
-                <label for="fname">Email</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your email adress...">
+                <div class="contact-box">
+                  <label for="fname">Email</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your email adress...">    
+                </div>
+                <div class="contact-box">
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-                <input type="submit" value="Submit">
+                  <input type="submit" value="Submit">
+                </div>
             </form>
             </div>
     </main> 
