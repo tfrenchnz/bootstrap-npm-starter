@@ -9,6 +9,7 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  font-family: Roboto;
 }
 
 input[type=submit] {
@@ -34,8 +35,4 @@ input[type=submit]:hover {
 
 .contact-label {
   font-family: Montserrat;
-}
-
-.contact-text {
-  font-family: Roboto;
 }
