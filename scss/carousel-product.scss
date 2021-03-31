@@ -27,7 +27,8 @@ body {
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: relative;
+    width: 100%;
+    height: 100%;
   }
   .carousel-item > img {
     position: absolute;
