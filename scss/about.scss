@@ -12,7 +12,7 @@
     display: none;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 767px) {
     .about-content {
     grid-template-columns: repeat(1, 1fr);
     }
