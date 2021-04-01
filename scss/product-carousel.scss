@@ -49,8 +49,8 @@ main {
 }
 
 .product-main .carousel-cell {
-  width: 100%;
-  max-height: 500px;
+  width: relative;
+  max-height: 800px;
   margin-right: 10px;
   counter-increment: carousel-cell;
   //   background: #8c8;
