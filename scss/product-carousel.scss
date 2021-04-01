@@ -177,7 +177,7 @@ main {
   }
 }
 
-@media (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
     .preview-grid {
         grid-template-columns: 60vw, 40vw;
     }
