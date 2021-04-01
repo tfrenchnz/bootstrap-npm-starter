@@ -194,12 +194,8 @@ main {
 // }
 
 .carousel-nav .flickity-slider {
-  left: 10px !important;
+  left: -10px !important;
   transform: translateX(0%) !important;
-}
-
-.flickity-viewport {
-  padding-left: 0px;
 }
 
 @media screen and (max-width: 576px) {
