@@ -18,6 +18,12 @@ main {
     justify-content: center;
 }
 
+@media (min-width: 1000px) {
+    .preview-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 .product-pricing {
     max-width: 600px;
 }
@@ -185,8 +191,4 @@ main {
   }
 }
 
-@media (width: 1000px) {
-    .preview-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
+
