@@ -15,6 +15,7 @@ main {
 .product-img-gallery {
     display: grid;
     grid-template-columns: repeat(1fr);
+    justify-content: center;
 }
 
 .product-container {
