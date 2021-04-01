@@ -18,18 +18,23 @@ main {
     justify-content: center;
 }
 
-@media (min-width: 1000px) {
-    .preview-grid {
-        grid-template-columns: 70vw 30vw;
-    }
-}
+// @media (min-width: 1000px) {
+//     .preview-grid {
+//         grid-template-columns: 70vw 30vw;
+//     }
+// }
 
 .product-pricing {
-    max-width: 300px;
+    max-width: 600px;
 }
 
 .product-img-gallery {
     max-width: 600px;
+}
+
+@media (min-width: 1000px)
+    .preview-grid {
+        grid-template-columns: 70vw 30vw;
 }
 
 .product-container {
