@@ -72,6 +72,10 @@ main {
   text-decoration: none;
 }
 
+.text-muted:hover {
+  opacity: 100%;
+}
+
 .product-main .flickity-viewport {
   max-height: 800px !important;
   touch-action: pan-y;
