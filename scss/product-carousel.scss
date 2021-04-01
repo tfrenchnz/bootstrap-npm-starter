@@ -45,11 +45,13 @@ main {
   background: rgb(244,240,237);
   margin-bottom: 40px;
   width: inherit;
+  max-width: 600px;
   //   height: 100%;
 }
 
 .product-main .carousel-cell {
   width: inherit;
+  max-width: 600px;
   max-height: 800px;
   margin-right: 10px;
   counter-increment: carousel-cell;
