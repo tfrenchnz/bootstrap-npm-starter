@@ -32,11 +32,11 @@ main {
     max-width: 600px;
 }
 
-@media (min-width: 1000px)
+@media (min-width: 1000px){
     .preview-grid {
         grid-template-columns: 70vw 30vw;
+    }
 }
-
 .product-container {
   //   background-color: #ffffff;
   min-height: 80vh;
