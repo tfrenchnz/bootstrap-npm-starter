@@ -65,6 +65,11 @@ main {
   color: #333;
 }
 
+.text-muted {
+  color: rgb(33,65,82);
+  opacity: 75%;
+}
+
 .product-main .flickity-viewport {
   max-height: 800px !important;
   touch-action: pan-y;
