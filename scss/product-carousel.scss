@@ -198,6 +198,10 @@ main {
   transform: translateX(0%) !important;
 }
 
+.flickity-viewport {
+  padding-left: 0px;
+}
+
 @media screen and (max-width: 576px) {
   .carousel-nav .flickity-slider {
     left: 0 !important;
