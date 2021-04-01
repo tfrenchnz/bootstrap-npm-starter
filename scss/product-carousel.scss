@@ -187,6 +187,6 @@ main {
 
 @media (width: 1000px) {
     .preview-grid {
-        grid-template-columns: 60vw 40vw;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
