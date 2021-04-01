@@ -44,12 +44,12 @@ main {
 .carousel {
   background: rgb(244,240,237);
   margin-bottom: 40px;
-  width: 90vw;
+  width: inherit;
   //   height: 100%;
 }
 
 .product-main .carousel-cell {
-  width: 90vw;
+  width: inherit;
   max-height: 800px;
   margin-right: 10px;
   counter-increment: carousel-cell;
