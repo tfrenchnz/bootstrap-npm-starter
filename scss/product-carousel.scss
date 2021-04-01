@@ -34,6 +34,7 @@ main {
     max-width: 600px;
     padding: 20px;
     justify-items: center;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 1000px){
@@ -72,7 +73,6 @@ main {
 
 .carousel {
   background: rgb(244,240,237);
-  margin-top: 20px;
   width: inherit;
   max-width: 600px;
   justify-content: center;
