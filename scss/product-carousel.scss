@@ -176,3 +176,9 @@ main {
     left: 0 !important;
   }
 }
+
+@media (min-width: 1000px) {
+    .preview-grid {
+        grid-template-columns: repeat(60%, 40%);
+    }
+}
