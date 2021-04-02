@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>Album example · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+
+    <!-- Flickety slider -->
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">    <link href="assets/css/checkout.css" rel="stylesheet">
+    <link href="assets/css/global.css" rel="stylesheet">
+    <link href="assets/css/product-grid.css" rel="stylesheet">
+    <link href="assets/css/navbar.css" rel="stylesheet">
+    <link href="assets/css/product-carousel.css" rel="stylesheet">
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#7952b3">
+
+<!-- navbar -->
+<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbars/">
+<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  
+  </head>
+  <body>
+
+    <header>
+      <div class=logo-svg>
+        <a href="index.html">
+        <img src="assets/img/renoo-logo.svg" alt="Renoo">
+        </a>
+      </div>
+    </header>
+
+    <nav class="navbar navbar-expand-md" aria-label="Fourth navbar example">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><img src="assets/img/SVG/menu.svg" alt=""></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="products.html" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Buy</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                <li><a class="dropdown-item" href="products-men.html">Men</a></li>
+                <li><a class="dropdown-item" href="products-women.html">Women</a></li>
+                <li><a class="dropdown-item" href="products-kids.html">Kids</a></li>
+              </ul>
+            </li>  
+            
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="preview-grid">      
+      <div class="product-img-gallery">
+                <div class="carousel product-main" data-flickity='{"pageDots": false, "prevNextButtons": false}'>
+                    <div class="d-block carousel-cell">
+                        <a>
+                            <img class="card-img-top img-fluid d-block" src="assets/img/yellowstone-front.jpg" alt="Jersey front" />
+                        </a>
+                    </div>
+                    <div class="d-block carousel-cell">
+                        <a>
+                            <img class="card-img-top img-fluid d-block" src="assets/img/yellowstone-back" alt="Upcycled clothing" />
+                        </a>
+                    </div>
+                    <div class="d-block carousel-cell">
+                        <a>
+                            <img class="card-img-top img-fluid d-block" src="assets/img/yellowstone-fabric.jpg" alt="Upcycled clothing" />
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel carousel-nav mx-n2 mb-10 mb-md-0" data-flickity='{ "asNavFor": ".product-main", "contain": true, "pageDots": false, "wrapAround": false, "prevNextButtons": false }'>
+                    <div class="carousel-cell col-12 px-2"><img class="img-fluid" src="assets/img/yellowstone-front.jpg" alt="Upcycled clothing" /></div>
+                    <div class="carousel-cell col-12 px-2"><img class="img-fluid" src="assets/img/yellowstone-back" alt="Upcycled clothing" /></div>
+                    <div class="carousel-cell col-12 px-2"><img class="img-fluid" src="assets/img/yellowstone-fabric.jpg" alt="Upcycled clothing" /></div>
+                </div>
+            </div>  <!-- end of .product-img-gallery -->
+            
+            <div class="product-pricing">
+                <!-- Header -->
+                <div class="row mb-1">
+                    <div class="col">
+                        <a class="text-muted" href="products-men.html">Men</a>
+                    </div>
+                    <div class="col-auto">
+                        <!-- Rating -->
+                        
+                    </div>
+                </div>
+
+                <!-- Header -->
+                <h3 class="product-title">Vintage Yellowstone Sweater</h3>
+
+                <!-- Price -->
+                <div class="mb-7 product-price">
+                    <span class="product-price__price">$30.00</span>
+                </div>
+
+                <div>
+                  <span class="font-size-sm ml-1 darker-text">In Stock</span>
+                </div>
+
+                <div>
+                  <span class="rating rating-colour"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg></span>
+                                  <span class="rating rating-colour"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg></span>
+                                  <span class="rating rating-colour"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg></span>
+                                  <span class="rating rating-colour"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg></span>
+                                  <span class="rating rating-colour-dim"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg></span>
+                                  <!-- <a class="font-size-sm text-reset ml-2 darker-text" href="reviews.html">Reviews (6)</a> -->
+                </div>
+
+                <!-- Add to Cart -->
+                <form class="buttons">
+                    <div class="buy-buttons-group">
+                        <div class="buy-button">
+                            <select class="custom-select mb-2">
+                                <option value="1" selected>1</option>
+                                <option value="2" >2</option>
+                                <option value="3" >3</option>
+                                <option value="4" >4</option>
+                                <option value="5" >5</option>
+                                <option value="6" >6</option>
+                                <option value="7" >7</option>
+                            </select>
+                        </div>
+
+                            <!-- Add to Cart button -->
+                            <button type="submit" class="btn btn-dark buy-button add-to-cart-button">
+                                Add to Cart
+                                <i class="bi bi-cart"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                                </svg>
+                            </button>
+
+
+                            <!-- Wishlist -->
+                            <button class="btn btn-outline-dark buy-button wishlist-button" data-toggle="button">
+                                Wishlist
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                                </svg>
+                            </button>
+                    </div> <!-- end of .buy-buttons-group -->
+                </form> <!-- end of Add to Cart -->
+            
+            </div> <!-- end of .product-pricing -->
+            </div> <!-- end of .row -->
+        </div>  <!-- end of .container -->
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>  
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script type="module" src="assets/js/starter.js"></script>
