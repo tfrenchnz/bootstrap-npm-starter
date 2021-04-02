@@ -9,11 +9,10 @@
 
 .footer-list {
     font-family: Roboto;
-    align-content: center;
+    align-content: left;
 }
 .footer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: block;
     color: rgb(244,240,237);
     background-color: rgb(33,65,82);
     padding: 1rem;
