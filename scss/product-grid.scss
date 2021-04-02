@@ -19,3 +19,8 @@
     font-family: Montserrat;
     color: rgb(238, 147, 37);
 }
+
+.title-arrange {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
