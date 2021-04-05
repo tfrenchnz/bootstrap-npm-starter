@@ -5,8 +5,8 @@
 		"../../scss/added-to-cart.scss"
 	],
 	"sourcesContent": [
-		"@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Roboto:ital@0;1&display=swap');\n\nmain {\n    padding: 20px;\n}\n\nh1 {\n    color: rgb(238, 147, 37);\n    padding: 20px;\n}\n\na {\n    color: rgb(33,65,82);\n    padding: 20px;\n    font-size: x-large;\n    font-family: Montserrat;\n}"
+		"@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Roboto:ital@0;1&display=swap');\n\nmain {\n    padding: 20px;\n}\n\nh1 {\n    color: rgb(238, 147, 37);\n    padding: 20px;\n}\n\na {\n    color: rgb(33,65,82);\n    padding: 20px;\n    font-size: x-large;\n    font-family: Montserrat;\n    text-decoration: none;\n}\n\na:hover {\n    color: rgb(238, 147, 37);\n}"
 	],
 	"names": [],
-	"mappings": "AAAA,OAAO,CAAC,oHAAI,CAEZ,AAAA,IAAI,AAAC,CACD,OAAO,CAAE,IAAI,CAChB,AAED,AAAA,EAAE,AAAC,CACC,KAAK,CAAE,OAAiB,CACxB,OAAO,CAAE,IAAI,CAChB,AAED,AAAA,CAAC,AAAC,CACE,KAAK,CAAE,OAAa,CACpB,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,OAAO,CAClB,WAAW,CAAE,UAAU,CAC1B"
+	"mappings": "AAAA,OAAO,CAAC,oHAAI,CAEZ,AAAA,IAAI,AAAC,CACD,OAAO,CAAE,IAAI,CAChB,AAED,AAAA,EAAE,AAAC,CACC,KAAK,CAAE,OAAiB,CACxB,OAAO,CAAE,IAAI,CAChB,AAED,AAAA,CAAC,AAAC,CACE,KAAK,CAAE,OAAa,CACpB,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,OAAO,CAClB,WAAW,CAAE,UAAU,CACvB,eAAe,CAAE,IAAI,CACxB,AAED,AAAA,CAAC,AAAA,MAAM,AAAC,CACJ,KAAK,CAAE,OAAiB,CAC3B"
 }
