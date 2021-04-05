@@ -5,8 +5,8 @@
 		"../../scss/added-to-cart.scss"
 	],
 	"sourcesContent": [
-		""
+		"main {\n    padding: 20px;\n}\n\nh1 {\n    color: rgb(238, 147, 37);\n}"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": "AAAA,AAAA,IAAI,AAAC,CACD,OAAO,CAAE,IAAI,CAChB,AAED,AAAA,EAAE,AAAC,CACC,KAAK,CAAE,OAAiB,CAC3B"
 }
