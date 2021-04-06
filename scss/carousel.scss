@@ -76,11 +76,11 @@ body {
     line-height: 1;
     /* rtl:remove */
     letter-spacing: -.05rem;
-    color: rgb(33,65,82);
+    color: rgb(33,65,82) !important;
   }
 
   .text-muted {
-    color: rgb(238, 147, 37);
+    color: rgb(238, 147, 37) !important;
   }
   
   
