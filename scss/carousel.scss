@@ -138,27 +138,27 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Roboto:ital@0;1&display=swap');
 
 
-.about-content {
+.featurette-content {
     padding: 0px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.about-grid-narrow {
+.featurette-grid-narrow {
     padding: 20px;
     display: none;
 }
 
 @media (max-width: 767px) {
-    .about-content {
+    .featurette-content {
     grid-template-columns: repeat(1, 1fr);
     }
     
-    .about-grid-wide {
+    .featurette-grid-wide {
         display: none;
     }
     
-    .about-grid-narrow {
+    .featurette-grid-narrow {
         display: block;
     }
 }
