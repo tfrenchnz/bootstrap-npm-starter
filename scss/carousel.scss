@@ -142,6 +142,7 @@ body {
     padding: 0px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    width: fit-content;
 }
 
 .featurette-grid-narrow {
