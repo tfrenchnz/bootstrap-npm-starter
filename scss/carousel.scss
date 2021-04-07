@@ -134,3 +134,57 @@ body {
   width: fit-content;
   height: fit-content;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Roboto:ital@0;1&display=swap');
+
+
+.about-content {
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-grid-narrow {
+    padding: 20px;
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .about-content {
+    grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .about-grid-wide {
+        display: none;
+    }
+    
+    .about-grid-narrow {
+        display: block;
+    }
+}
+
+.featurette-title {
+    font-family: Montserrat;
+    color: rgb(33,65,82);
+}
+
+.featurette-text {
+    font-family: Roboto;
+    color: rgb(33,65,82);
+    text-decoration: none;
+}
+
+.featurette-text:hover {
+    color: rgb(33,65,82);
+}
+
+.featurette-img {
+    width: 100%;
+}
+
+.featurette-grid {
+    padding: 20px;
+}
+
+.featurette-grid-wide {
+    padding: 20px;
