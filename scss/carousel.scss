@@ -43,6 +43,15 @@ body {
     font-family: Roboto;
     color: rgb(244,240,237);
   }
+
+  .carousel-inner {
+    width: 90% !important;
+    margin: auto;
+  }
+
+  .carousel-control-prev {
+    width: 20% !important;
+  }
   
   
   /* MARKETING CONTENT
